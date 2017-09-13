@@ -116,6 +116,10 @@ function bindEvents(){
 			onUpdateTimes();			
 		}
 	});
+
+	$('.header').on('click', function(e){
+		$('.ui.basic.modal').modal('hide')
+	})
 }
 
 function onUpdateTimes(){
